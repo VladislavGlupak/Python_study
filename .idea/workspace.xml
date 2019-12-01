@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47f47268-d214-47cf-aa92-7e29f73cff9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/args_kwargs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boolean.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditional_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexing_and_slicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list_comprehension.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list_comprehension2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logical_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/properties_and_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string_formatting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/useful_operators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/while_loop.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="47f47268-d214-47cf-aa92-7e29f73cff9d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +33,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.list_comprehension2">
+  <component name="RunManager" selected="Python.args_kwargs">
     <configuration name="args_kwargs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hello_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +88,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/strings.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.args_kwargs" />
+        <item itemvalue="Python.functions" />
         <item itemvalue="Python.list_comprehension2" />
         <item itemvalue="Python.sets" />
         <item itemvalue="Python.for_loop" />
-        <item itemvalue="Python.args_kwargs" />
-        <item itemvalue="Python.hello_world" />
       </list>
     </recent_temporary>
   </component>
