@@ -7,3 +7,5 @@ print("Mama")
 print("Mama")
 
 #new400
+
+print("trenerovka")
