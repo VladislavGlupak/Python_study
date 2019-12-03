@@ -1,3 +1,7 @@
 a = int(input())
-print(a // 60)
-print(a % 60)
+def check(a):
+    if -15<a<=12 or 14<a<17 or 19<=a:
+        return True
+    else:
+        return False
+print(check(a))
