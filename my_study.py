@@ -5,3 +5,5 @@ def check(a):
     else:
         return False
 print(check(a))
+
+print(5 /2 )
