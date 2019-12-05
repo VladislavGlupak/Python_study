@@ -14,3 +14,32 @@ post1.number_of_likes = 30
 print(post1.number_of_likes)
 print(post2.number_of_likes)
 
+#Methods
+
+class BankAccount:
+    def __init__(self, client_id, client_first_name, client_last_name, balance=0.0):
+        self.client_id = client_id
+        self.client_first_name = client_first_name
+        self.client_last_name = client_last_name
+        self.balance = balance
+
+    def add(self, added_money):
+        self.balance = self.balance + added_money
+        print("Уважаемый " + self.client_first_name + " " + self.client_last_name + ". " + "Ваш положили " + str(self.balance))
+
+    def withdraw(self, withdraw_money):
+        self.balance = self.balance + withdraw_money
+        print("Уважаемый " + self.client_first_name + " " + self.client_last_name + ". " + "Вы сняли " + str(self.balance))
+
+
+Client1 = BankAccount(1, "Alex", "Nikitin")
+Client2 = BankAccount(2, "John", "Andreev")
+
+Client1.add(40)
+Client2.withdraw(50)
+
+
+
+
+
+
