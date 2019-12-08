@@ -6,6 +6,7 @@ class BlogPost:
         self.text = text
         self.number_of_likes = number_of_likes
 
+
 post1 = BlogPost(user_name="Maks",text="Post number 1",number_of_likes=10)
 post2 = BlogPost(user_name="Alex",text="Post number 2",number_of_likes=20)
 
@@ -15,6 +16,7 @@ print(post1.number_of_likes)
 print(post2.number_of_likes)
 
 #Methods
+
 
 class BankAccount:
     def __init__(self, client_id, client_first_name, client_last_name, balance=0.0):
@@ -38,8 +40,38 @@ Client2 = BankAccount(2, "John", "Andreev")
 Client1.add(40)
 Client2.withdraw(50)
 
+# Inheritance. Polymorfism
 
 
+class GameCharacter:
+    def __init__(self, name, health, level):
+        self.name = name
+        self. health = health
+        self.level = level
+
+    def speak(self):
+        print("Hi, my name is " + self.name)
 
 
+class Villain(GameCharacter):
+    def __init__(self, name, health, level):
+        GameCharacter.__init__(self, name, health, level)
+
+    def speak(self):
+        print("Hi, my name is " + self.name + "and I will kill you")
+
+    def kill(self, who):
+        who.health = 0
+        print(who.name + "," + " " + "bang-bang, now you're dead")
+
+
+gamer1 = GameCharacter("Alex", 5, 3)
+gamer2 = Villain("John", 10, 5)
+
+gamer1.speak()
+gamer2.speak()
+
+print(gamer1.health)
+gamer2.kill(gamer1)
+print(gamer1.health)
 
