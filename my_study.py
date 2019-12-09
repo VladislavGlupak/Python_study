@@ -1,5 +1,6 @@
 #Task attributes
 
+
 class BlogPost:
     def __init__(self, user_name, text, number_of_likes):
         self.user_name = user_name
@@ -74,4 +75,3 @@ gamer2.speak()
 print(gamer1.health)
 gamer2.kill(gamer1)
 print(gamer1.health)
-
