@@ -77,18 +77,24 @@
 # print(gamer1.health)
 
 
-class Chain:
-    def __init__(self, number_of_items):
-        self.number_of_items = number_of_items
+# class Chain:
+#     def __init__(self, number_of_items):
+#         self.number_of_items = number_of_items
+#
+#     def __str__(self):
+#         return 'Chain with' + ' ' + self.number_of_items + ' ' + 'items'
+#
+#     def __len__(self):
+#         return self.number_of_items
+#
+#
+# line = Chain('11')
+#
+# print(line.__str__())
+# print(line.__len__())
 
-    def __str__(self):
-        return 'Chain with' + ' ' + self.number_of_items + ' ' + ' ' + 'items'
+import math
 
-    def __len__(self):
-        return self.number_of_items
-
-
-line = Chain('10')
-
-print(line.__str__())
-print(line.__len__())
+print(math.sqrt(123456789))
+print(math.factorial(987))
+print(math.pow(876,54))
